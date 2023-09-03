@@ -1,0 +1,11 @@
+.single-item{
+  width: 200px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.single-item img{
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}

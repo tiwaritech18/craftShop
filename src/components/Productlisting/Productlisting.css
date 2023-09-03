@@ -1,0 +1,35 @@
+/* ______________product listing____________ */
+
+.product-listing{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-primary);
+  
+ }
+ .product img{
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+ }
+ .product-link{
+  flex-wrap: wrap;
+ }
+ .product{
+  border: 0.5px solid rgb(213, 209, 209);
+  height: 100%;
+ }
+ .product h2{
+  letter-spacing: 6px;
+ }
+ .product p{
+  color: black;
+ }
+ .product-heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+ }
+ 

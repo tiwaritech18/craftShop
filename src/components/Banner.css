@@ -1,0 +1,29 @@
+.banner-container{
+  background: linear-gradient(to right, var(--clr-secondary) 50%, var(--clr-primary) 50%);
+  padding-top:10rem ;
+  
+}
+.banner-left-content{
+  background-color: var(--clr-secondary);
+
+}
+.banner-img{
+  width:500px;
+  height: 550px;
+  object-fit: cover;
+}
+.banner-content{
+  display: flex;
+  gap: 3rem;
+  justify-content:center;
+  
+}
+.banner-right-content{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.banner-btn{
+  border: 1px solid var(--clr-util);
+}

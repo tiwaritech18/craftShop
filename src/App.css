@@ -1,0 +1,95 @@
+
+:root{
+  --clr-primary:#ebebee;
+  --clr-secondary:#d1e5f2;
+  --clr-util:#3e3f43;
+  --ff-body:'Montserrat', sans-serif;
+  --fw-light:200;
+  --fw-regular:400;
+  --fw-medium:500;
+  --fw-semibold:700;
+  --fw-bold:900;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--ff-body);
+}
+/*
+  5. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+h1,h2,h3,h4,h5,h6{
+  color: black;
+}
+/*
+  8. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+a{
+  text-decoration: none;
+}
+button,a{
+  cursor: pointer;
+}
+
+/* _____________Main Section________________ */
+.main{
+  height: 80vh;
+  background: linear-gradient(to right, var(--clr-primary) 50%, var(--clr-secondary) 50%);
+}
+.container{
+  max-width: fit-content;
+  width: auto;
+  margin: 0 auto;
+}
+.title-container{
+  text-align: center;
+  
+}
+.bar{
+  font-weight: 700;
+  color: var(--clr-util);
+}
+.letter-spacing{
+  letter-spacing: 7px;
+  color: var(--clr-util);
+  font-weight: var(--fw-medium);
+}
+@media (max-width:960px) {
+  
+}
+@media (max-width:590px) {
+  .container{
+    max-width: 100%;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,12 @@
+.collection{
+  background-color: var(--clr-primary);
+  padding: 10rem 0;
+}
+.collection-container{
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+
+}

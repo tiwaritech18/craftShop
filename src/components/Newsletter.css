@@ -1,0 +1,8 @@
+.newsletter{
+  background-color: var(--clr-secondary);
+  padding: 5rem 0;
+}
+.newsletter-container{
+  display: flex;
+  gap: 10rem;
+}
